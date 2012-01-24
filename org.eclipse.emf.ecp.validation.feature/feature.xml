@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.emf.ecp.validation.feature"
       label="ECP Validation"
-      version="0.8.9.M913"
+      version="0.8.9.M920"
       provider-name="Eclipse Modeling Project">
 
    <description url="http://emfcp.org">
@@ -218,9 +218,14 @@ Each party waives its rights to a jury trial in any resulting
 litigation.
    </license>
 
+   <includes
+         id="org.eclipse.emf.ecp.validation.source.feature"
+         version="0.0.0"/>
+
    <requires>
-      <import plugin="org.eclipse.emf.validation"/>
-      <import plugin="org.eclipse.emf.ecp.navigator"/>
+      <import plugin="org.eclipse.core.runtime" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.common" version="2.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.ecp.common" version="0.8.1" match="greaterOrEqual"/>
    </requires>
 
    <plugin

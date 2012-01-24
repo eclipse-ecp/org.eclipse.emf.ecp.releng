@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.emf.ecp.navigator.feature"
       label="ECP Navigator"
-      version="0.8.9.M913"
+      version="0.8.9.M920"
       provider-name="Eclipse Modeling Project">
 
    <description url="http://emfcp.org">
@@ -218,13 +218,13 @@ Each party waives its rights to a jury trial in any resulting
 litigation.
    </license>
 
-   <includes
-         id="org.eclipse.emf.ecp.common.feature"
-         version="0.0.0"/>
-
    <requires>
       <import plugin="org.eclipse.emf.ecp.editor"/>
    </requires>
+
+   <includes
+         id="org.eclipse.emf.ecp.navigator.source.feature"
+         version="0.0.0"/>
 
    <plugin
          id="org.eclipse.emf.ecp.navigator"
