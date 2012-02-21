@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.emf.ecp.editor.feature"
       label="ECP Editor"
-      version="0.8.9.M924"
+      version="0.8.9.M927"
       provider-name="Eclipse Modeling Project">
 
    <description url="http://emfcp.org">
@@ -221,10 +221,6 @@ litigation.
       <import plugin="org.eclipse.jface.text"/>
       <import plugin="org.eclipse.emf.ecp.common"/>
    </requires>
-
-   <includes
-         id="org.eclipse.emf.ecp.editor.source.feature"
-         version="0.0.0"/>
 
    <plugin
          id="org.eclipse.emf.ecp.editor"

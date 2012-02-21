@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.emf.ecp.common.feature"
       label="ECP Common"
-      version="0.8.9.M924"
+      version="0.8.9.M927"
       provider-name="Eclipse Modeling Project">
 
    <description url="http://emfcp.org">
@@ -226,10 +226,6 @@ litigation.
       <import plugin="org.eclipse.emf.databinding.edit"/>
       <import plugin="org.eclipse.emf.emfstore.common"/>
    </requires>
-   
-   <includes
-         id="org.eclipse.emf.ecp.common.source.feature"
-         version="0.0.0"/>
 
    <plugin
          id="org.eclipse.emf.ecp.common"
