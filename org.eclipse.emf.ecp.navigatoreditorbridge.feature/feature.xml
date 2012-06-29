@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.emf.ecp.navigatoreditorbridge.feature"
       label="ECP Navigator Editor Bridge"
-      version="0.9.1.qualifier" 
+      version="0.9.2.qualifier" 
       provider-name="Eclipse Modeling Project">
 
    <description url="http://emfcp.org">
